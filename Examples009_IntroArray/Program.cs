@@ -49,6 +49,8 @@ Console.WriteLine(result);
 //попросим Max савнить их int max = Max(max1, max2, max3)
 
 //Console.WriteLine(max);
-
-//Все это можно записать через массивы, см Example009_IntroArray
-
+// Формы записи массивов:
+// int[] array = { 1, 2, 3, 4, 5, 6, 7 };
+// int[] array = new int[5];
+// int[] array = new int[]{ 1, 2, 3, 4, 5, 6, 7 };
+// int[] array = new int[5]{ 1, 0, 2, 0, 3}
