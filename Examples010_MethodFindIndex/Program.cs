@@ -65,7 +65,7 @@ void PrintArray(int[] col)
     int position = 0;
     while (position < count)
     {
-        Console.WriteLine(col[position]);
+        Console.Write($"{col[position]}, ");
         position++;
     }
 }
@@ -96,7 +96,7 @@ array[6] = 4;
 PrintArray(array);
 Console.WriteLine();
 
-int pos = IndexOf(array, 444); // - !!! если ввести число которого не существует, то выведется 0
+int pos = IndexOf(array, 3); // - !!! если ввести число которого не существует, то выведется 0
 //чтобы понять, что введено число не находящееся в массиве, существует искуственный прием
 //присвоить int position = -1, тогда будет выводится -1, что понимают как 
 //введенного числа нет в массиве!!!
